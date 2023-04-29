@@ -8,15 +8,15 @@ Made for plugin development templates
 
 ```lua
 require("lazy").setup({
-	{
-		name = "say-hello.nvim",
-		config = function()
-			require("say-hello").setup({
-                -- Default configuration
-                your_name = "neovimmer"
-            })
-		end
-	},
+  {
+    "MeiWagatsuma/say-hello.nvim",
+    config = function()
+      require("say-hello").setup({
+        -- Default configuration
+        your_name = "neovimmer"
+      })
+    end
+  },
 }
 ```
 
