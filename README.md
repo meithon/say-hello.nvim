@@ -2,6 +2,9 @@
 
 Made for plugin development templates
 
+![say-hello](https://user-images.githubusercontent.com/88608631/235293958-47b16d79-bb93-423a-ad47-57e6c408c524.gif)
+
+
 ## Installation
 
 ### Lazy.nvim
