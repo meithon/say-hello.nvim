@@ -1,3 +1,7 @@
-local api = require("say-hello")
+local M = {}
 
-vim.api.nvim_create_user_command("SayHello", api.say_hello, {})
+function M.init()
+	vim.api.nvim_create_user_command("SayHello", require("say-hello.notify"), {})
+end
+
+return M

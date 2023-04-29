@@ -6,10 +6,10 @@ M.defaults = {
 
 M.config = {}
 
-function M.setup(options)
+function M.set(options)
 	M.options = vim.tbl_deep_extend("force", {}, M.defaults, options or {})
 
-	require("say-hello.notify")
+	require("say-hello.command").init()
 end
 
 return M
